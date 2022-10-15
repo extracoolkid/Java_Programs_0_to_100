@@ -29,6 +29,14 @@ class calculator
                 System.out.println("Product of the given numbers="+(a*b));
                 break;
 
+                case 4:
+                System.out.println("Division operation of the given numbers as num1/num2="+(a/b));
+                break;
+
+                default:
+                System.out.println("Enter a correct choice...");
+                break;
+
             }
         } 
     }
